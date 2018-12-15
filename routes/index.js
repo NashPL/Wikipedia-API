@@ -13,7 +13,7 @@ router.get('/wikipedia', (req, res, next) => {
 });
 
 router.get('/wikipedia/term/:term', (req, res, next) => {
-  
+  let wiki = new WikipediaAPI('json');
 });
 
 module.exports = router;
