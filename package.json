@@ -11,8 +11,10 @@
     "debug": "~2.6.3",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0",
     "path": "^0.12.7",
     "pug": "~2.0.0-beta11",
+    "random-words": "^1.1.0",
     "serve-favicon": "~2.4.2"
   },
   "description": "Code Challange",
