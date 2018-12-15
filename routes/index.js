@@ -27,9 +27,8 @@ router.get('/wikipedia/term/:term', async (req, res, next) => {
 });
 
 router.get('/wikipedia/random', async (req, res, next) => {
-  let wiki = new WikipediaAPI('json');
-  let random = randomWords(1);
-  let wikiResponse = await wiki.getByWord(random[0]);
+  let wiki = new WikipediaAPI('xml');
+  let wikiResponse = await wiki.getByWord(randomWords(1)[0]);
   if(wikiResponse.status === 400) {
     res.status(400).send(wikiResponse);
   } else {
