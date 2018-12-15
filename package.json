@@ -6,12 +6,28 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
+    "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "morgan": "~1.8.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
     "pug": "~2.0.0-beta11",
     "serve-favicon": "~2.4.2"
-  }
+  },
+  "description": "Code Challange",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NashPL/Wikipedia-API.git"
+  },
+  "author": "Krzysztof Buczynski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NashPL/Wikipedia-API/issues"
+  },
+  "homepage": "https://github.com/NashPL/Wikipedia-API#readme"
 }
